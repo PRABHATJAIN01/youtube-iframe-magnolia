@@ -19,21 +19,13 @@ component dialog.
 
 ## Usage
 
-<!--
-Provide details about how a developer can make the component template,
-or other features provided by the light module, available to content
-authors.
-
-
 Make the component available to authors, and include the files in `webresources` on your pages using standard magnolia techniques.
 
 (To make this component available on the mtk basic page, you could use the decoration included in `_dev/decorations`.)
 
 ## Demo
-> [Provide how to view any included demonstration pages.]
 
 To see a page demonstrating this component, open the Pages app in Magnolia AdminCentral and import the files in `_dev/demos`.)
-
 
 ## Information on Magnolia CMS
 
