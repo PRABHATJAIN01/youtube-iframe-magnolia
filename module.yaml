@@ -1,0 +1,5 @@
+version: 0.0.1
+displayName: Youtube Iframe Component
+dependencies:
+  core:
+    version: 5.4.7/*

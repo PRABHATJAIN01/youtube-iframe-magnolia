@@ -5,12 +5,6 @@ Iframe for Youtube with different configurations.
 
 ## Features
 
-<!--
-Provide a list of the key features this module provides for content
-authors, or whoever the primary user is. For a component template,
-consider providing screenshots of the rendered component and the
-component dialog.
--->
 ![Youtube video id] (_dev/READMEMD-youtube-iframeid.png)
 
 ![Demo page with component](_dev/READMEMD-iframe.png)

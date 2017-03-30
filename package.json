@@ -1,0 +1,23 @@
+{
+  "name": "youtube-iframe-magnolia",
+  "version": "0.0.1",
+  "description": "Youtube Iframe Component for Magnolia CMS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PRABHATJAIN01/youtube-iframe-magnolia.git"
+  },
+  "keywords": [
+    "youtube-iframe-module",
+    "magnolia-component"
+  ],
+  "author": "Prabhat Jain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PRABHATJAIN01/youtube-iframe-magnolia/issues"
+  },
+  "homepage": "https://github.com/PRABHATJAIN01/youtube-iframe-magnolia#readme"
+}
