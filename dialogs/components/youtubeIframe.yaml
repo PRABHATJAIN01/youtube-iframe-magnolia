@@ -1,0 +1,77 @@
+
+actions: 
+  cancel: 
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition
+  commit: 
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+form:
+  label: youtube iframe
+  tabs:
+    - name: tabMain
+      label: Main
+      fields:
+      - 
+        class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+        defaultValue: "Youtube Iframe"
+        description: "Iframe or Video Title"
+        label: Title
+        name: title
+        i18n: true
+      - 
+        class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+        description: "Youtube video id"
+        label: "Video Id"
+        name: videoId
+      - 
+        class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+        description: "Width of Iframe"
+        label: Width
+        name: width
+      - 
+        class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+        description: "Height of Iframe"
+        label: Height
+        name: height
+      - 
+        buttonLabel: "Select to Autoplay"
+        class: info.magnolia.ui.form.field.definition.CheckboxFieldDefinition
+        defaultValue: false
+        description: "Video Autoplay property"
+        label: Autoplay
+        name: autoplay
+        type: Boolean
+      - 
+        buttonLabel: "Select to loop"
+        class: info.magnolia.ui.form.field.definition.CheckboxFieldDefinition
+        defaultValue: false
+        description: "Video loop property"
+        label: Loop
+        name: loop
+        type: Boolean
+      - 
+        buttonLabel: "Select to disable controls"
+        class: info.magnolia.ui.form.field.definition.CheckboxFieldDefinition
+        defaultValue: false
+        description: "Video control property"
+        label: Controls
+        name: controls
+        type: Boolean
+      - 
+        class: info.magnolia.ui.form.field.definition.OptionGroupFieldDefinition
+        label: "Progress Bar Color"
+        multiselect: false
+        name: color
+        options: 
+          - 
+            label: "Red Color"
+            name: red
+            selected: true
+            value: red
+           
+          - 
+            label: "White Color"
+            name: white
+            value: white
+        type: String
+        description: Progress bar color
+ 

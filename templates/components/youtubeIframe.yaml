@@ -1,0 +1,4 @@
+title: Youtube Iframe
+renderType: freemarker
+templateScript: /youtube-iframe-magnolia/templates/components/youtubeIframe.ftl
+dialog: youtube-iframe-magnolia:components/youtubeIframe
